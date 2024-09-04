@@ -4,6 +4,7 @@
     "strict": true,
     "strictNullChecks": true,
     "resolveJsonModule": true,
+    "jsx": "react-jsx",
   },
   "files": ["i18next.d.ts"],
   "include": ["**/*.ts", "**/*.tsx"],

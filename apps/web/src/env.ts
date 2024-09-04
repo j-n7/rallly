@@ -55,6 +55,11 @@ export const env = createEnv({
     SUPPORT_EMAIL: z.string().email(),
     NOREPLY_EMAIL: z.string().email().optional(),
     NOREPLY_EMAIL_NAME: z.string().default("Rallly"),
+    /**
+     * Trigger.dev Configuration
+     */
+    TRIGGER_API_KEY: z.string().optional(),
+    TRIGGER_PROJECT_ID: z.string(),
   },
   /*
    * Environment variables available on the client (and server).
@@ -99,6 +104,8 @@ export const env = createEnv({
     SUPPORT_EMAIL: process.env.SUPPORT_EMAIL,
     NOREPLY_EMAIL: process.env.NOREPLY_EMAIL,
     NOREPLY_EMAIL_NAME: process.env.NOREPLY_EMAIL_NAME,
+    TRIGGER_API_KEY: process.env.TRIGGER_API_KEY,
+    TRIGGER_PROJECT_ID: process.env.TRIGGER_PROJECT_ID,
   },
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
 });

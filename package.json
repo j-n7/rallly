@@ -39,7 +39,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.2.2",
-    "zod": "^3.22.3"
+    "zod": "^3.22.3",
+    "@trigger.dev/sdk": "^2.3.19",
+    "@trigger.dev/nextjs": "^2.3.19",
+    "@trigger.dev/react": "^2.3.19"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.4",
@@ -55,5 +58,8 @@
   "engines": {
     "node": "20.x"
   },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@1.22.19",
+  "trigger.dev": {
+    "endpointId": "rallly-OgRi"
+  }
 }
