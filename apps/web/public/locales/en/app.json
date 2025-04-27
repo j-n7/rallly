@@ -97,7 +97,7 @@
   "polls": "Polls",
   "timeZoneSelect__noOption": "No option found",
   "timeZoneSelect__inputPlaceholder": "Search…",
-  "poweredByRallly": "Powered by <a>{name}</a>",
+  "poweredByRallly": "Powered with 💚 by <a>{name}</a> and based on rallly.co",
   "participants": "Participants",
   "language": "Language",
   "languageDescription": "Change your preferred language",
