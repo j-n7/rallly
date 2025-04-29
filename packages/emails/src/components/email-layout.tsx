@@ -55,11 +55,11 @@ export const EmailLayout = ({
                 t={ctx.t}
                 i18nKey="common_poweredBy"
                 ns="emails"
-                defaults="Powered by <a>{{domain}}</a>"
-                values={{ domain: "rallly.co" }}
+                defaults="Powered with 💚 by <a>{{domain}}</a> and based on rallly.co"
+                values={{ domain: "jinc.io" }}
                 components={{
                   a: (
-                    <Link href="https://rallly.co?utm_source=email&utm_medium=transactional" />
+                    <Link href="jinc.io" />
                   ),
                 }}
               />

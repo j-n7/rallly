@@ -1,5 +1,5 @@
 {
-  "common_poweredBy": "Betrieben von <a>{{domain}}</a>",
+  "common_poweredBy": "Betrieben mit 💚 von <a>{{domain}}</a> und basierend auf rallly.co",
   "common_disableNotifications": "Wenn Sie keine Updates mehr erhalten möchten, können Sie <a>Benachrichtigungen deaktivieren</a>.",
   "finalizeHost_content": "<b>{{title}}</b> wurde gebucht für:",
   "finalizeHost_preview": "Endgültiger Termin gebucht! Wir haben die Teilnehmer benachrichtigt und ihnen Kalendereinladungen gesendet.",
